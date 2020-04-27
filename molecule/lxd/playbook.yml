@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - sentry_deployment_users_home: /root
+    - sentry_testing_provider: lxd
+
+  roles:
+    - sentry

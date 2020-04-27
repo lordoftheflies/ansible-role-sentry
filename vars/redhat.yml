@@ -1,0 +1,4 @@
+---
+# roles/sentry/vars/debian.yml
+
+sentry_package_extension: 'rpm'

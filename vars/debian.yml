@@ -1,0 +1,5 @@
+---
+# roles/sentry/vars/debian.yml
+
+# Debian specific vars
+sentry_package_extension: 'deb'

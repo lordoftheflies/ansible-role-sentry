@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - sentry_deployment_users_home: /home/vagrant
+    - sentry_testing_provider: vagrant
+  roles:
+    - sentry
